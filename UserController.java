@@ -17,7 +17,7 @@ public class UserController {
 		return "user/insert";
 	}
 
-	// 회원수정 페이지로 이동 - master 브랜치에 주석추가
+	// 회원수정 페이지로 이동 
 	@RequestMapping("/user/update.do")
 	public String update() {
 		logger.info("경로 : update");
@@ -25,7 +25,7 @@ public class UserController {
 		return "user/update";
 	}
 
-	// 회원삭제 페이지로 이동
+	// 회원삭제 페이지로 이동 
 	@RequestMapping("/user/delete.do")
 	public String delete() {
 		logger.info("경로 : delete");
